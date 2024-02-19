@@ -5,5 +5,6 @@ import Body from './components/Body/Body.vue'
 <template>
   <Body>
     <Header />
+    <Cards />
   </Body>
 </template>
