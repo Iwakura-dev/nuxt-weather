@@ -8,18 +8,18 @@ import SwitchTheme from '../UI/SwitchTheme/SwitchTheme.vue'
       <div class="flex items-center gap-10">
         <h1 class="text-2xl font-raleway font-bold ">Iwakura</h1>
         <nav class="flex gap-3 ">
-          <RouterLink to="/">
+          <NuxtLink to="/">
             <span class="text-md font-raleway hover:text-orange-600 transition-colors duration-100 ">
               <Icon name="uil:home" />
               Home
             </span>
-          </RouterLink>
-          <RouterLink to="/">
+          </NuxtLink>
+          <NuxtLink to="https://github.com/Iwakura-dev" target="_blank">
             <span class="text-md font-raleway hover:text-orange-600 transition-colors duration-100 ">
               <Icon name="uil:github" />
               Github
             </span>
-          </RouterLink>
+          </NuxtLink>
         </nav>
       </div>
       <SwitchTheme />
