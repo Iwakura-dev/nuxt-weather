@@ -5,6 +5,7 @@ export default defineNuxtConfig({
     '@nuxtjs/eslint-module',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
+    '@nuxtjs/dotenv',
     'nuxt-icon'
   ],
   postcss: {
