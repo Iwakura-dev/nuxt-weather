@@ -8,8 +8,12 @@ export default {
     './app.vue',
     './error.vue'
   ],
+  darkMode: 'class',
   theme: {
-    extend: {}
+    extend: {},
+    fontFamily: {
+      raleway: ["'Raleway'", 'Arial', 'sans-serif']
+    }
   },
   plugins: []
 }
