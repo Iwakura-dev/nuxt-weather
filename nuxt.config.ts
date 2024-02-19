@@ -1,7 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ['@nuxtjs/eslint-module', '@nuxtjs/tailwindcss'],
+  modules: [
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/color-mode'
+  ],
   postcss: {
     plugins: {
       tailwindcss: {},
@@ -9,11 +13,10 @@ export default defineNuxtConfig({
     }
   },
   tailwindcss: {
-    cssPath: '~/assets/css/main.css',
+    cssPath: ['~/assets/css/main.css', { injectPosition: 0 }],
     configPath: 'tailwind.config.js',
     exposeConfig: false,
     config: {},
-    injectPosition: 0,
     viewer: true
   }
 })
