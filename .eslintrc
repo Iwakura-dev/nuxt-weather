@@ -10,6 +10,7 @@
     "vue/singleline-html-element-content-newline": "off",
     "semi": "off",
     "space-before-function-paren": "off",
-    "curly": "off"
+    "curly": "off",
+    "no-console": "off"
   }
 }
