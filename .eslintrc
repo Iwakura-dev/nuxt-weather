@@ -11,6 +11,7 @@
     "semi": "off",
     "space-before-function-paren": "off",
     "curly": "off",
-    "no-console": "off"
+    "no-console": "off",
+    "vue/html-closing-bracket-newline": "off"
   }
 }
