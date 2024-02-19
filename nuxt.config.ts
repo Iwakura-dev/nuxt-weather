@@ -4,7 +4,8 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/eslint-module',
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/color-mode'
+    '@nuxtjs/color-mode',
+    'nuxt-icon'
   ],
   postcss: {
     plugins: {
@@ -19,4 +20,4 @@ export default defineNuxtConfig({
     config: {},
     viewer: true
   }
-})
+});

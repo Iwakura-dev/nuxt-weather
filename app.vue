@@ -1,5 +1,9 @@
+<script setup lang="ts">
+import Body from './components/Body/Body.vue'
+</script>
+
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
+  <Body>
+    <Header />
+  </Body>
 </template>
