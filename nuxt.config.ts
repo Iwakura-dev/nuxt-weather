@@ -1,11 +1,15 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  runtimeConfig: {
+    public: {
+      weatherToken: process.env.NUXT_PUBLIC_WEATHER_API ?? ''
+    }
+  },
   modules: [
     '@nuxtjs/eslint-module',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
-    '@nuxtjs/dotenv',
     'nuxt-icon'
   ],
   postcss: {

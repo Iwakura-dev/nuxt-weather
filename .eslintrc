@@ -12,6 +12,10 @@
     "space-before-function-paren": "off",
     "curly": "off",
     "no-console": "off",
-    "vue/html-closing-bracket-newline": "off"
+    "vue/html-closing-bracket-newline": "off",
+    "vue/html-self-closing": "off",
+    "vue/first-attribute-linebreak": "off",
+    "vue/max-attributes-per-line": "off",
+    "vue/no-export-in-script-setup": "off",
   }
 }
